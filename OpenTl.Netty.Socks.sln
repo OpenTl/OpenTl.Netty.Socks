@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0CF33AC-5A8B-4C72-99A4-F42B9E81D7BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTl.Netty.Socks", "src\OpenTl.Netty.Socks\OpenTl.Netty.Socks.csproj", "{9FD22A0E-CB93-4642-B8E1-F1301B5266E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{C7018005-78F9-40F2-BC51-2F01F62D3222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTl.Netty.Socks.SockProxy", "samples\OpenTl.Netty.Socks.SockProxy\OpenTl.Netty.Socks.SockProxy.csproj", "{BAE577E4-DFBA-406E-9F3E-21D71A96E434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTl.Netty.Socks.ClientProxy", "samples\OpenTl.Netty.Socks.ClientProxy\OpenTl.Netty.Socks.ClientProxy.csproj", "{E6DB10B3-50C0-4F53-AF3E-5ED467A39331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FD22A0E-CB93-4642-B8E1-F1301B5266E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD22A0E-CB93-4642-B8E1-F1301B5266E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD22A0E-CB93-4642-B8E1-F1301B5266E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD22A0E-CB93-4642-B8E1-F1301B5266E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE577E4-DFBA-406E-9F3E-21D71A96E434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE577E4-DFBA-406E-9F3E-21D71A96E434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE577E4-DFBA-406E-9F3E-21D71A96E434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE577E4-DFBA-406E-9F3E-21D71A96E434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DB10B3-50C0-4F53-AF3E-5ED467A39331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DB10B3-50C0-4F53-AF3E-5ED467A39331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DB10B3-50C0-4F53-AF3E-5ED467A39331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DB10B3-50C0-4F53-AF3E-5ED467A39331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FD22A0E-CB93-4642-B8E1-F1301B5266E0} = {E0CF33AC-5A8B-4C72-99A4-F42B9E81D7BD}
+		{BAE577E4-DFBA-406E-9F3E-21D71A96E434} = {C7018005-78F9-40F2-BC51-2F01F62D3222}
+		{E6DB10B3-50C0-4F53-AF3E-5ED467A39331} = {C7018005-78F9-40F2-BC51-2F01F62D3222}
+	EndGlobalSection
+EndGlobal

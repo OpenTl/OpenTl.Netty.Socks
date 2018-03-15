@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard16;net46</TargetFrameworks>
+    <Title>OpenTl port of the DotNetty SOCKSx protocol</Title>
+    <Version>1.0.0</Version>
+    <PackageId>OpenTl.Netty.Socks</PackageId>
+    <Authors>Viktor Borisov</Authors>
+    <Company />
+    <Product>OpenTl project</Product>
+    <Description>OpenTl port of the Netty SOCKSx protocol. Support SOCKS5 and SOCKS4</Description>
+    <PackageTags>opentl dotnetty netty socks socks4 socks5</PackageTags>
+    <PackageProjectUrl>https://github.com/OpenTl</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OpenTl/OpenTl.ClientApi</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BarsGroup.CodeGuard" Version="3.2.43" />
+    <PackageReference Include="DotNetty.Handlers" Version="0.4.7" />
+    <PackageReference Include="Fody" Version="2.4.6" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="NullGuard.Fody" Version="1.7.1" />
+    <PackageReference Include="System.Globalization.Extensions" Version="4.3.0" />
+  </ItemGroup>
+</Project>
